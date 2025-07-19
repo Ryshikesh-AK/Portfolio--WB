@@ -3,7 +3,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: url('https://i.pinimg.com/736x/03/d8/bc/03d8bc11c0fee8b482f7953c05b18e6d.jpg') no-repeat center center fixed;
   background-size: cover;
-  color: #253159;
+  color: #000000;
   
 }
 
@@ -11,7 +11,7 @@ body {
   max-width: 1000px;
   margin: auto;
   padding: 20px;
-  background-color:rgba(138, 108, 108, 0.19); /* light overlay for readability */
+  background-color:rgb(255 255 255 / 20%); /* light overlay for readability */
   border-radius: 12px;
 }
 
@@ -30,7 +30,7 @@ h1 {
 }
 
 .year {
-  background: #253159;
+  background: #2d3224;
   color: white;
   padding: 5px 15px;
   border-radius: 50px;
@@ -43,7 +43,7 @@ h2 {
 }
 
 .tagline {
-  color: #112e62;
+  color: #2d3224;
   font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ h2 {
   height: 230px;
   border-radius: 10%;
   object-fit: cover;
-  border: 6px solid #253159;
+  border: 6px solid #19210e;
 }
 
 .qrcode {
@@ -124,7 +124,7 @@ h2 {
   color: #ffffff;
   margin-bottom: 10px;
   padding: 5px 15px;
-  background-color: #112e62;
+  background-color: #19210e;
   border-radius: 6px;
 }
 

@@ -76,6 +76,11 @@ h2 {
   text-align: center;
 }
 
+.profile :hover{
+  scale: 1.05;
+  transition: all 0.3s ease-in-out;
+}
+
 .profile img {
   width: 200px;
   height: 230px;

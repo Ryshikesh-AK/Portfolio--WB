@@ -1,0 +1,22 @@
+.name-title {
+  font-size: 100px;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.orange {
+  font-size: 1oopx;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(141, 139, 138);
+}
+.tagline {
+  font-weight: bolder;
+}
+.dark-bg {
+  background-color: black;
+}
+.home {
+  height: 700px;
+}

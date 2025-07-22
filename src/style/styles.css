@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 95%;
   margin: auto;
   padding: 20px;
   background-color:rgb(255 255 255 / 20%); /* light overlay for readability */
@@ -159,3 +159,6 @@ ul li {
   padding: 10px;
 }
 
+.mb-4 {
+    margin-bottom: -4.5rem !important;
+}

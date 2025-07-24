@@ -1,3 +1,10 @@
+.hey {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(208, 11, 11);
+}
+
 .name-title {
   font-size: 100px;
   font-weight: bolder;
@@ -6,10 +13,10 @@
 }
 
 .orange {
-  font-size: 1oopx;
+  font-size: 80px;
   font-weight: bolder;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(141, 139, 138);
+  color: rgb(136, 255, 0);
 }
 .tagline {
   font-weight: bolder;
@@ -19,4 +26,12 @@
 }
 .home {
   height: 700px;
+}
+.profile {
+  position: fixed;
+  left:80%;
+  top:40%;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
 }

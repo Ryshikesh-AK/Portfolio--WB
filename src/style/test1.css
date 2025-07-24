@@ -29,9 +29,15 @@
 }
 .profile {
   position: fixed;
-  left:80%;
-  top:40%;
+  left: 80%;
+  top: 40%;
   height: auto;
   padding: 10px;
   border-radius: 10px;
+}
+.container {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
 }

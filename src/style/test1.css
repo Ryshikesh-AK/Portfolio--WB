@@ -2,6 +2,10 @@
   padding-bottom: 10rem;
   padding-top: 5rem;
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 
 .hey {
   font-size: 30px;

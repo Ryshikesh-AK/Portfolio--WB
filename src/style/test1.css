@@ -1,3 +1,8 @@
+.container {
+  padding-bottom: 10rem;
+  padding-top: 5rem;
+}
+
 .hey {
   font-size: 30px;
   font-weight: bolder;
@@ -6,36 +11,46 @@
 }
 
 .name-title {
-  font-size: 100px;
+  font-size: clamp(40px, 10vw, 100px);
   font-weight: bolder;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
 }
 
 .orange {
-  font-size: 80px;
+  font-size: clamp(30px, 12vw, 80px);
   font-weight: bolder;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(136, 255, 0);
 }
+
 .tagline {
   font-weight: bolder;
+  font-size: 1.2rem;
 }
+
 .dark-bg {
   background-color: black;
 }
+
 .home {
   height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
+
 .profile {
   position: fixed;
   left: 80%;
   top: 40%;
-  height: auto;
+  max-width: 300px;
   padding: 10px;
   border-radius: 10px;
 }
-.container {
+
+.custom-container {
   width: 100%;
   height: auto;
   object-fit: cover;

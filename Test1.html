@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="src/style/test1.css" />
 
         <!-- Custom js -->
-    <link rel="stylesheet" href="src\style\script.js" />
+<link rel="stylesheet" href="src\style\script.js" />
 
 
     <!-- Meta Description for SEO -->
@@ -133,9 +133,7 @@
       id="projects"
       class="container py-5 animate__animated animate__zoomIn"
     >
-      <h2 class="fw-bold display-4"  style="color: #bfd7d8  
-      scale: 1.08;
-      transition: all 0.3s ease-in-out">Works</h2>
+      <h2 class="fw-bold display-4"  style="color: #bfd7d8;">Works</h2>
       <p class="fs-5 text-secondary mb-1 fw-bold">
         I love building socialmedia advertising,Posters,brand building,logo design and practicing my skills. Here's an archive of
         things that I've worked on.
@@ -600,8 +598,33 @@
 
       </div>
     </section>
+    <section>
+      <!-- Skill Tags -->
+<div id="skills" class="skill-tags">
+  <button onclick="showSkill('MongoDb', 75)">MongoDb</button>
+  <button onclick="showSkill('Html', 95)">Html</button>
+  <button onclick="showSkill('ReactJs', 85)">ReactJs</button>
+  <!-- Add more skills as needed -->
+</div>
 
-    <footer class="footer-contact py-5">
+<!-- Gauge Display -->
+<div class="gauge-container">
+  <svg viewBox="0 0 36 36" class="circular-chart">
+    <path class="circle-bg" d="M18 2.0845
+         a 15.9155 15.9155 0 0 1 0 31.831
+         a 15.9155 15.9155 0 0 1 0 -31.831"/>
+    <path class="circle" id="gauge" stroke-dasharray="0, 100"
+          d="M18 2.0845
+             a 15.9155 15.9155 0 0 1 0 31.831
+             a 15.9155 15.9155 0 0 1 0 -31.831"/>
+    <text x="18" y="20.35" class="percentage" id="gaugeText">Click a Skill</text>
+  </svg>
+</div>
+
+    </section>
+<!-- Contact Section -->
+ <h1 class="container text-white fw-bold py-5">About</h1>
+    <footer class="footer-contact">
   <div class="container">
     <div class="row text-white">
       <!-- Left text block -->
@@ -611,7 +634,7 @@
         <p class="text-info fw-bold mb-0">ashinkrishna@gmail.com</p>
       </div>
 
-      <!-- Contact Form -->
+      <!-- About -->
       <div class="col-md-6">
         <form>
           <div class="row g-3">
@@ -646,6 +669,43 @@
     </div>
   </div>
 </footer>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Left Social Icons</title>
+
+  <!-- Font Awesome CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="left-social-bar" id="socialBar">
+<a href="https://www.instagram.com/ashinkrishnaa?igsh=MWZ3Zzl6b3ZmNHB1MA==" target="_blank" data-tooltip="Instagram"><i class="fab fa-instagram"></i></a>   
+ <a href="https://www.linkedin.com/in/ashin-krishna-53b223359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/" target="_blank" data-tooltip="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://wa.me/qr/ANGJKJBPL2MKF1" target="_blank" data-tooltip="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://wa.me/qr/ANGJKJBPL2MKF1" target="_blank" data-tooltip="Email"><i class="fab fa-envelope"></i></a>
+
+    <div class="left-line"></div>
+  </div>
+
+  <!-- Animation trigger script -->
+  <script>
+    const socialBar = document.getElementById('socialBar');
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        socialBar.classList.add('show');
+      }, 300);
+    });
+  </script>
+</body>
+</html>
+
 
     <!-- Footer -->
     <footer class="bg-black text-center py-4">

@@ -51,8 +51,6 @@
   padding: 20px;
 }
 
-
-
 .profile {
   position: fixed;
   left: 80%;
@@ -61,6 +59,11 @@
   max-width: 300px;
   padding: 10px;
   border-radius: 10px;
+}
+
+.container  {
+    background-color: 0,0,0;
+    
 }
 
 .custom-container {
@@ -131,5 +134,160 @@ button {
 button:hover {
   background-color: #e64a19;
   transform: scale(1.05);
+}
+
+.footer-contact {
+  background: rgb(33 37 41);
+  color: #fff;
+  border-top: 1px solid #333;
+  border-radius: 20px;
+  max-width: 90em;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.footer-contact .form-control,
+.footer-contact textarea {
+  background-color: transparent;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+.footer-contact .form-control::placeholder,
+.footer-contact textarea::placeholder {
+  color: #ccc;
+}
+
+.footer-contact .btn-outline-light {
+  border-color: #777;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.footer-contact .btn-outline-light:hover {
+  background-color: #00ff4c;
+  color: #000;
+}
+
+.footer-contact .btn-info {
+  background: linear-gradient(to right, #00f0ff, #00bfff);
+  border: none;
+}
+
+.skill-tags button {
+  background: transparent;
+  color: cyan;
+  border: 1px solid cyan;
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.skill-tags button:hover {
+  background: cyan;
+  color: black;
+}
+
+.circular-chart {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 2.8;
+}
+
+.circle {
+  fill: none;
+  stroke: #ff0055;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  transition: stroke-dasharray 0.5s ease;
+}
+
+.percentage {
+  fill: #8ff6f6;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000920;
+  height: 200vh; /* for scroll testing */
+}
+
+.left-social-bar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 5px;
+  z-index: 999;
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* When show class is added */
+.left-social-bar.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.left-social-bar a {
+  color: #c7c7c7;
+  font-size: 24px;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.left-social-bar a:hover {
+  color: #00ff5e;
+  transform: scale(1.2);
+}
+
+/* Tooltips */
+.left-social-bar a::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 35px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #00ff62;
+  color: #000;
+  padding: 5px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  font-size: 14px;
+}
+
+.left-social-bar a:hover::after {
+  opacity: 1;
+}
+
+/* Vertical line */
+.left-line {
+  width: 3px;
+  height: 20em;
+  background-color: #00ff08;
+  margin-top: 10px;
 }
 

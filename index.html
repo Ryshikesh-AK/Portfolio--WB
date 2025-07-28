@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - ASHIN KRISHNA</title>
+    
+    <!-- Bootstrap 5.3.7 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/style/style.css" />
+
+
+    <!-- Meta Description for SEO -->
+    <meta
+      name="description"
+      content="Portfolio of Ashin Krishna, a passionate graphic designer specializing in social media designs, photo editing, and retouching."
+    />
+    <!-- cloudflare -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <!-- Image Modal -->
+<div id="imgModal" class="modal" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage" />
+</div>
+
+  <body class="bg-black text-white">
+    <!-- Header -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header End -->
+
+    <!-- Home Section -->
+    <section class="container">
+      <div id="Home" class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-md-8 text-center text-md-start">
+          <p
+            class="Hey fw-bold fs-2 animate__animated animate__slideInDown"
+            style="color: #bfd7d8"
+          >
+            Hey there!, I'm-
+          </p>
+          <h1
+            class="display-4 fw-bold animate__animated animate__slideInDown"
+            style="
+              color: #bfd7d8;
+              font-size: 80px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            "
+          >
+            ASHIN <span class="orange">KRISHNA</span>
+          </h1>
+          <p class="fs-5 text-light animate__animated animate__slideInDown">
+            GRAPHIC DESIGNER 
+          </p>
+          <p class="lead animate__animated animate__slideInDown  mb-4">
+            "I am good in specializing social media designs, photo editing, and
+            retouching. Passionate about visual storytelling, delivering
+            high-quality work, and contributing to innovative projects in the
+            graphic design industry. I'm always eager to learn and grow in the
+            ever-evolving field of design."
+          </p>
+        </div>
+
+        <!-- Image Column -->
+        <div
+  class="col-md-4 text-center mt-4 mt-md-0 animate__animated animate__slideInRight">
+  <img
+    src="assets/images/Ashi2-removebg-preview.png"
+    alt="Portrait of Ashin Krishna"
+    class="img-fluid rounded expand-img"
+    style="max-height: 600px; cursor: pointer"
+    onclick="openModal(this)"
+  />
+</div>
+
+      </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- Projects Section -->
+     <section
+      id="projects"
+      class="container py-5 animate__animated animate__zoomIn"
+    >
+      <h2 class="fw-bold display-4"  style="color: #bfd7d8;">Works</h2>
+      <p class="fs-5 text-secondary mb-1 fw-bold">
+        I love building socialmedia advertising,Posters,brand building,logo design and practicing my skills. Here's an archive of
+        things that I've worked on.
+      </p>
+  </section>
+    <section
+      id="projects"
+      class="container py-5 animate__animated animate__zoomIn"
+    >
+      <h3 class="fw-bold display-4 "  style="color: rgb(136, 255, 0)">POSTERS</h3>
+      <p>A glimpse into some creative poster work—designed for events, ads, and promotions</p>
+      <div class="row g-4">
+        <div class="col-md-12">
+          <div class="project-card bg-dark border border-secondary rounded p-3 ">
+            <img
+              src="assets/img/porsche.jpg"
+              class="img-fluid rounded "
+              alt="Porsche 911 GT3 RS"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Porsche</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              911 GT3 RS
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              A marketing site showcasing the Porsche 911 GT3 RS's design and
+              performance features.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/ronaldo.jpg"
+              class="img-fluid rounded"
+              alt="Dodge Challenger"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">CR7</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Cristano Ronaldo
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              A landing page built for showcasing Dodge Challenger's legacy and
+              modern muscle appeal.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/911 gt.jpg"
+              class="img-fluid rounded"
+              alt="Dodge Challenger"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary rounded ">Porsche</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              911 GT3 RS
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              A landing page built for showcasing Dodge Challenger's legacy and
+              modern muscle appeal.
+            </p>
+          </div>
+        </div>
+
+         <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/redbull.jpg"
+              class="img-fluid rounded"
+              alt="Dodge Challenger"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary rounded ">Red Bull</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Red Bull
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              A landing page built for showcasing Dodge Challenger's legacy and
+              modern muscle appeal.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Advertising Section -->
+    <section
+      id="advertising"
+      class="container py-5 animate__animated animate__zoomIn"
+    >
+      <h2 class="fw-bold display-4"  style="color: rgb(136, 255, 0)">ADVERTISING</h2>
+      <p>These posters were designed to attract attention and drive engagement across digital and print campaigns</p>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/brand 5.jpg"
+              class="img-fluid rounded"
+              alt="Burger Ad Design"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Delicious</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Dream cake Ad
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              Designed a mouthwatering burger campaign with modern food styling
+              and layout.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/food 3.jpg"
+              class="img-fluid rounded"
+              alt="Burger Ad Design"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Kerala</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Treditional food Ad
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              Designed a mouthwatering burger campaign with modern food styling
+              and layout.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/food 2.jpg"
+              class="img-fluid rounded"
+              alt="Burger Ad Design"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Home delivery</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Delicious Ad
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              Designed a mouthwatering burger campaign with modern food styling
+              and layout.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/food 1.jpg"
+              class="img-fluid rounded"
+              alt="Burger Ad Design"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Malabar</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Biryani Ad
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              Designed a mouthwatering burger campaign with modern food styling
+              and layout.
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Logo Designs Section -->
+    <section
+      id="logo-designs"
+      class="container py-5 animate__animated animate__zoomIn"
+    >
+      <h2 class="fw-bold display-4"style="color: rgb(136, 255, 0)">LOGO DESIGNS</h2>
+      <p class="tagline">Turning concepts into iconic visuals</p>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/logo 4.jpg"
+              class="img-fluid rounded"
+              alt="Logo Design Sample 1"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Logo</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Brand Logo 1
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              A clean, scalable logo concept for a modern tech company brand
+              identity.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/logo 5.jpg"
+              class="img-fluid rounded"
+              alt="Logo Design Sample 1"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Logo</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Brand Logo 2
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              A clean, scalable logo concept for a modern tech company brand
+              identity.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/logo 3.jpg"
+              class="img-fluid rounded"
+              alt="Logo Design Sample 1"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Logo</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Brand Logo 3
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              A clean, scalable logo concept for a modern tech company brand
+              identity.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/logo 2.jpg"
+              class="img-fluid rounded"
+              alt="Logo Design Sample 1"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Logo</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Brand Logo 4
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              A clean, scalable logo concept for a modern tech company brand
+              identity.
+            </p>
+          </div>
+        </div>
+         
+      </div>
+    </section>
+
+    <!-- brand building Section -->
+    <section
+      id="interior-designs"
+      class="container py-5 animate__animated animate__zoomIn"
+    >
+      <h2 class="fw-bold display-4"style="color: rgb(136, 255, 0)">BRAND BUILDING</h2>
+      <p>From logo concepts to full visual identities, here are branding projects I've worked on to bring businesses to life</p>
+        <div class="col-md-10">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/branding 1.jpg"
+              class="img-fluid rounded"
+              alt="Interior Design Living Room"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Pazhamkanji</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Pazhamkanji
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              Designed a luxury living space combining minimalism and warmth
+              with a Scandinavian palette.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/logo 1.jpg"
+              class="img-fluid rounded"
+              alt="Interior Design Living Room"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Pazhamkanji</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Pazhamkanji
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              Designed a luxury living space combining minimalism and warmth
+              with a Scandinavian palette.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/brand 4.jpg"
+              class="img-fluid rounded"
+              alt="Interior Design Living Room"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Pazhamkanji</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Pazhamkanji
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              Designed a luxury living space combining minimalism and warmth
+              with a Scandinavian palette.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-10">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/brand 3.jpg"
+              class="img-fluid rounded"
+              alt="Interior Design Living Room"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Pazhamkanji</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Pazhamkanji
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              Designed a luxury living space combining minimalism and warmth
+              with a Scandinavian palette.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/brand 6.jpg"
+              class="img-fluid rounded"
+              alt="Interior Design Living Room"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Malabar</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Pazhamkanji
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              Designed a luxury living space combining minimalism and warmth
+              with a Scandinavian palette.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="project-card bg-dark border border-secondary rounded p-3">
+            <img
+              src="assets/img/brand 2.jpg"
+              class="img-fluid rounded"
+              alt="Interior Design Living Room"
+            />
+            <div class="mt-3 d-flex flex-wrap gap-2">
+              <span class="badge bg-secondary">Interior</span>
+            </div>
+            <h5 class="mt-3 fw-bold">
+              Pazhamkanji
+              <a href="#" class="text-white"
+                ><i class="fas fa-up-right-from-square ms-1"></i
+              ></a>
+            </h5>
+            <p class="text-muted">
+              Designed a luxury living space combining minimalism and warmth
+              with a Scandinavian palette.
+            </p>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section>
+    
+<!-- Contact Section -->
+ <h1 class="container text-white fw-bold py-5">About</h1>
+    <footer class="footer-contact">
+  <div id="contact" class="container">
+    <div class="row text-white">
+      <!-- Left text block -->
+      <div class="col-md-6 mb-4">
+        <h2 class="fw-bold mb-3 "style="color: rgb(136, 255, 0)">A crazy project?<br>Let's discuss:</h2>
+        <p>Whether you are a business, an independent professional or even just curious about my work, do not hesitate to contact me. You can reach me by email or by the form, I will answer you as soon as possible!</p>
+        <p class="text-info fw-bold mb-0">ashinkrishna@gmail.com</p>
+      </div>
+
+      <!-- About -->
+      <div class="col-md-6">
+        <form>
+          <div class="row g-3">
+            <div class="col-md-12">
+              <input type="text" class="form-control" placeholder="Name*" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control" placeholder="Email address*" required>
+            </div>
+            <div class="col-md-6">
+              <input type="tel" class="form-control" placeholder="Phone Number">
+            </div>
+            <div class="col-12">
+              <label class="form-label">What are your needs?</label>
+              <div class="d-flex flex-wrap gap-2">
+                <button type="button" class="btn btn-outline-light">POSTERS</button>
+                <button type="button" class="btn btn-outline-light">ADVERTISING</button>
+                <button type="button" class="btn btn-outline-light">BRAND BUILDING </button>
+                <button type="button" class="btn btn-outline-light">OTHERS</button>
+
+              </div>
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" rows="4" placeholder="Message*" required></textarea>
+            </div>
+            <div class="col-12 text-end">
+              <button type="submit" class="btn btn-info text-white">Send me your sweet words</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Left Social Icons</title>
+
+  <!-- Font Awesome CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  
+  <!-- Your custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="left-social-bar" id="socialBar">
+<a href="https://www.instagram.com/ashinkrishnaa?igsh=MWZ3Zzl6b3ZmNHB1MA==" target="_blank" data-tooltip="Instagram"><i class="fab fa-instagram"></i></a>   
+ <a href="https://www.linkedin.com/in/ashin-krishna-53b223359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/" target="_blank" data-tooltip="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    <a href="https://wa.me/qr/ANGJKJBPL2MKF1" target="_blank" data-tooltip="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://wa.me/qr/ANGJKJBPL2MKF1" target="_blank" data-tooltip="Email"><i class="fab fa-envelope"></i></a>
+
+    <div class="left-line"></div>
+  </div>
+
+  <!-- Animation trigger script -->
+  <script>
+    const socialBar = document.getElementById('socialBar');
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        socialBar.classList.add('show');
+      }, 300);
+    });
+  </script>
+</body>
+</html>
+
+
+    <!-- Footer -->
+    <footer class="bg-black text-center py-4">
+      <p>Designed & built by Ryshikesh AK </p> 
+       
+      <p>Copyright © 2025. All rights reserved..</p>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
